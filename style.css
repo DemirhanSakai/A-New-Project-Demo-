@@ -1,11 +1,18 @@
-body {
+* {
     margin: 0;
-    overflow: hidden;
-    background-color: black;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#gameCanvas {
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+canvas {
     display: block;
-    width: 100vw;
-    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
